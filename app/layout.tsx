@@ -16,7 +16,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="navbar bg-base-100">
+          <div className="flex-1">
+            <a className="btn btn-ghost text-xl">
+              <object data="../public/main logo.svg" type="image/svg+xml"></object>
+            </a>
+          </div>
+          <div className="flex-none">
+            <ul className="menu menu-horizontal px-1">
+              <li><a>Log In</a></li>
+              <li><a>Sign Up</a></li>
+            </ul>
+          </div>
+        </div>
+
+        {children}
+      </body>
     </html>
   );
 }
