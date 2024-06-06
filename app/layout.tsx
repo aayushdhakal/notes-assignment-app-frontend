@@ -15,9 +15,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="light">
+      <head>
+      </head>
       <body className={inter.className}>
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-accent-1">
           <div className="flex-1">
             <a className="btn btn-ghost text-xl">
               <object data="../public/main logo.svg" type="image/svg+xml"></object>
