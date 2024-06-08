@@ -2,13 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
+  select three pallet for the light theme and for the dark theme so that it fits well
+*/
 @layer base {
+  /* primary color :- https://colorhunt.co/palette/85603f9e7540bd9354e3d18a */
+  /* accecnt color:- https://colorhunt.co/palette/1c0a00361500603601cc9544 */
+  /* dark to light */
   :root {
-    --foreground-rgb: 118, 208, 189;
-    --background-start-rgb: 0, 175, 173;
-    --background-end-rgb: 3, 155, 229;
-    --color-accent1: 0 ,111,230;
-    --color-accent2: 0 ,25,168;
+    --primary: 133,96,63;
+    --secondary:158, 117, 64; 
+    --third: 189,147,84;
+    --fourth:227,209,138;
+    --color-accent1: 28 ,10,0;
+    --color-accent2: 204 ,149,68;
   }
 }
 
@@ -22,31 +29,21 @@
   }
 } */
 
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+/* dark to light */
 :root[data-theme="dark"]{
-  --foreground-rgb: 241, 219, 219;
-  --background-start-rgb: 230, 174, 179;
-  --background-end-rgb: 208, 130, 136;
+  --primary: 26,18,11;
+  --senondary: 60,42,33;
+  --third: 213,206,163;
   --color-accent1: 159 ,95,93;
   --color-accent2: 113 ,39,39;
 }
 
-/*
-body {
-  color: rgb(var(--foreground-rgb));
-  background:linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-body {
-  color: rgb(var(--foreground-rgb));
-  background: white;
+
+.custom-quill .ql-toolbar{
+  @apply rounded
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-} */
+.custom-quill .ql-conatiner{
+  @apply rounded
+}

@@ -13,8 +13,11 @@ const config: Config = {
           1:"rgb(var(--color-accent1), <alpha-value>)",
           2:"rgb(var(--color-accent2), <alpha-value>)",
         },
-        bkg:"rgb(var(--foreground-rgb),<alpha-value>)",
-        content:"rgb(var(--background-start-rgb)/<alpha-value>)"
+        primary:"rgb(var(--primary),<alpha-value>)",
+        secondary:"rgb(var(--secondary),<alpha-value>)",
+        third:"rgb(var(--third),<alpha-value>)",
+        fourth:"rgb(var(--fourth),<alpha-value>)",
+        
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
