@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import mainLogo from '../../public/main logo.svg';
+import Link from 'next/link';
 
 const NavigationBar = () => {
   return (
@@ -27,8 +28,8 @@ const NavigationBar = () => {
 
               </label>
             </li>
-            <li><a>Log In</a></li>
-            <li><a>Sign Up</a></li>
+            <li><Link  href="#" className="btn bg-transparent border-none shadow-none hover:bg-transparent">Log In</Link></li>
+            <li><Link  href="/signup" className="btn bg-transparent border-none shadow-none hover:bg-transparent">Sign Up</Link></li>
           </ul>
         </div>
       </div>

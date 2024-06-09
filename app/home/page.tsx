@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <>
     <div className='p-8 px-20'>
-      <div className='md:flex flex-none m-auto justify-center gap-6 '>
+      <div className='flex flex-none m-auto justify-center gap-6 '>
         <EditorForNote/>
         <AuthFormHome/>
       </div>
