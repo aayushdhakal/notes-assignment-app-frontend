@@ -2,7 +2,7 @@ import React from 'react'
 
 const AuthFormHome = () => {
     return (
-        <div className='flex-1'>
+        <div className='w-2/5'>
             <div className="card bg-third text-primary-content">
                 <div className="card-body">
                     <h2 className="card-title">Card title!</h2>

@@ -40,10 +40,11 @@
 }
 
 
-.custom-quill .ql-toolbar{
-  @apply rounded
+.customQuill{
+  @apply h-full !important;
 }
 
-.custom-quill .ql-conatiner{
-  @apply rounded
+.customQuill .ql-container{
+  @apply overflow-y-auto h-60 !important;
 }
+
