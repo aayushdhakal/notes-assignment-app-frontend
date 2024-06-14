@@ -9,8 +9,8 @@ const HomePage = () => {
     <>
     <div className='p-8 px-20'>
       <div className='flex flex-none m-auto justify-center gap-6 '>
-        <EditorForNote/>
-        <AuthFormHome/>
+        {/* <EditorForNote/> */}
+        {/* <AuthFormHome/> */}
       </div>
     </div>
     </>
