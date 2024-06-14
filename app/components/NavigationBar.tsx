@@ -6,10 +6,9 @@ import Link from 'next/link';
 const NavigationBar = () => {
   return (
     <>
-      <div className="container">
-        <nav className="">
-          <div className="flex justify-center">
-            <div className="flex justify-between">
+      <div className="container max-w-full">
+          <div className="max-w-full ">
+            <div className="flex max-w-full justify-between px-[40px] py-[20px]">
               <div className="main__logo">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 200" fill="none" version="1.1" id="svg1" width='75px' height='75px'>
                   <g id="layer1">
@@ -46,13 +45,12 @@ const NavigationBar = () => {
                   </g>
                 </svg>
               </div>
-              <div className='flex flex-row '>
+              <div className='flex flex-row gap-x-5 font-bold'>
                 <button>Log In</button>
-                <button> Sign up </button>
+                <button>Sign up</button>
               </div>
             </div>
           </div>
-        </nav>
       </div>
     </>
   )
