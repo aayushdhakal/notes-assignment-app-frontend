@@ -10,13 +10,13 @@ const config: Config = {
     extend: {
       colors:{
         accent:{
-          1:"rgb(var(--color-accent1), <alpha-value>)",
-          2:"rgb(var(--color-accent2), <alpha-value>)",
+          1:"rgba(var(--color-accent1), <alpha-value>)",
+          2:"rgba(var(--color-accent2), <alpha-value>)",
         },
-        primary:"rgb(var(--primary),<alpha-value>)",
-        secondary:"rgb(var(--secondary),<alpha-value>)",
-        third:"rgb(var(--third),<alpha-value>)",
-        fourth:"rgb(var(--fourth),<alpha-value>)",
+        primary:"rgba(var(--color-primary),<alpha-value>)",
+        secondary:"rgba(var(--color-secondary),<alpha-value>)",
+        third:"rgba(var(--color-third),<alpha-value>)",
+        bkg:"rgba(var(--color-bkg),<alpha-value>)",
         
       },
       backgroundImage: {

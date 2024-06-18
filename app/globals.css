@@ -3,3 +3,17 @@
 @tailwind utilities;
 
 
+@layer base {
+    :root{
+        --color-primary: 84,51,16;
+        --color-secondary: 116,81,45;
+        --color-third: 175,143,111;
+        --color-bkg: 248, 244, 225;
+
+        --color-content: 0, 0, 0,;
+    }
+}
+
+@layer components {
+
+}

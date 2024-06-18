@@ -27,7 +27,7 @@ const EditorForNote = () => {
 
 
     return (
-        <div className="w-3/5" >
+        <div className="" >
             <ReactQuill
                 modules={customModuleForReactQuill}
                 theme='snow' 

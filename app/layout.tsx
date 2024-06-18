@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en" data-theme="light">
       <head>
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-bkg`}>
         <NavigationBar/>
         {children}
         {/* <Footer/> */}
